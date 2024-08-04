@@ -177,9 +177,9 @@ namespace BlogAPI.Controllers
         }
 
         [HttpPost("forgot-password")]
-        public async Task<IActionResult> ForgotPasswordToken([FromBody] ForgotPasswordRequest request)
+        public async Task<IActionResult> ForgotPasswordToken([FromBody] ForgotPasswordRequest forgotPasswordRequest)
         {
-            var result = await _authorService.ForgotPasswordTokenAsync(request);
+            var result = await _authorService.ForgotPasswordAsync(forgotPasswordRequest);
             if (!result.Success)
             {
                 return BadRequest(result.ErrorMessage);
@@ -189,9 +189,9 @@ namespace BlogAPI.Controllers
         }
 
         [HttpPost("reset-password")]
-        public async Task<IActionResult> ResetPasswordToken([FromBody] ResetPasswordRequest request)
+        public async Task<IActionResult> ResetPasswordToken([FromBody] ResetPasswordRequest resetPasswordRequest)
         {
-            var result = await _authorService.ResetPasswordByTokenAsync(request);
+            var result = await _authorService.ResetPasswordAsync(resetPasswordRequest);
             if (!result.Success)
             {
                 return BadRequest(result.ErrorMessage);

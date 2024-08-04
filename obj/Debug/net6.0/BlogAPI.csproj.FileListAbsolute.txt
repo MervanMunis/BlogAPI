@@ -280,5 +280,4 @@ C:\Users\Mervan\Desktop\softito\backend-examples\BlogAPI\BlogAPI\obj\Debug\net6.
 C:\Users\Mervan\Desktop\softito\backend-examples\BlogAPI\BlogAPI\obj\Debug\net6.0\BlogAPI.genruntimeconfig.cache
 C:\Users\Mervan\Desktop\softito\backend-examples\BlogAPI\BlogAPI\obj\Debug\net6.0\ref\BlogAPI.dll
 C:\Users\Mervan\Desktop\softito\backend-examples\BlogAPI\BlogAPI\obj\Debug\net6.0\BlogAPI.csproj.CopyComplete
-C:\Users\Mervan\Desktop\softito\backend-examples\BlogAPI\BlogAPI\obj\Debug\net6.0\BlogAPI.RazorAssemblyInfo.cache
-C:\Users\Mervan\Desktop\softito\backend-examples\BlogAPI\BlogAPI\obj\Debug\net6.0\BlogAPI.RazorAssemblyInfo.cs
+C:\Users\Mervan\Desktop\softito\backend-examples\BlogAPI\BlogAPI\obj\Debug\net6.0\BlogAPI.sourcelink.json

@@ -29,13 +29,9 @@ namespace BlogAPI.Services.Interfaces
 
         Task<ServiceResult<bool>> RemoveProfileImageAsync(string authorId);
 
+
         Task<ServiceResult<string>> ForgotPasswordAsync(ForgotPasswordRequest forgotPasswordRequest);
-        Task<ServiceResult<string>> ResetPasswordAsync(string token, string email, string newPassword);
-
-
-        // New methods for forgot password
-        Task<ServiceResult<string>> ForgotPasswordTokenAsync(ForgotPasswordRequest request);
-        Task<ServiceResult<string>> ResetPasswordByTokenAsync(ResetPasswordRequest request);
+        Task<ServiceResult<string>> ResetPasswordAsync(ResetPasswordRequest resetPasswordRequest);
 
 
     }

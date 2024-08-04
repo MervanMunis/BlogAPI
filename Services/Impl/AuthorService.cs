@@ -376,9 +376,9 @@ namespace BlogAPI.Services.Impl
             return ServiceResult<bool>.SuccessResult(true);
         }
 
-        public async Task<ServiceResult<string>> ForgotPasswordTokenAsync(ForgotPasswordRequest request)
+        public async Task<ServiceResult<string>> ForgotPasswordAsync(ForgotPasswordRequest forgotPasswordRequest)
         {
-            var user = await _userManager.FindByEmailAsync(request.Email);
+            var user = await _userManager.FindByEmailAsync(forgotPasswordRequest.Email);
             if (user == null)
             {
                 return ServiceResult<string>.FailureResult("User not found.");
@@ -390,15 +390,15 @@ namespace BlogAPI.Services.Impl
             return ServiceResult<string>.SuccessResult(token);
         }
 
-        public async Task<ServiceResult<string>> ResetPasswordByTokenAsync(ResetPasswordRequest request)
+        public async Task<ServiceResult<string>> ResetPasswordAsync(ResetPasswordRequest resetPasswordRequest)
         {
-            var user = await _userManager.FindByEmailAsync(request.Email);
+            var user = await _userManager.FindByEmailAsync(resetPasswordRequest.Email);
             if (user == null)
             {
                 return ServiceResult<string>.FailureResult("User not found.");
             }
 
-            var result = await _userManager.ResetPasswordAsync(user, request.Token, request.NewPassword);
+            var result = await _userManager.ResetPasswordAsync(user, resetPasswordRequest.Token, resetPasswordRequest.NewPassword);
             if (!result.Succeeded)
             {
                 return ServiceResult<string>.FailureResult("Failed to reset password.");
