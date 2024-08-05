@@ -37,7 +37,7 @@ BlogAPI/ <br>
 ├── Auth/ <br>
 ├── Controllers/ <br>
 ├── Data/ <br>
-├── DTOs
+├── DTOs <br>
 ├ ├── Request     <br>
 ├ ├── Response     <br>
 ├── Entities/ <br>
