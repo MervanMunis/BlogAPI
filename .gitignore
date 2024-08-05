@@ -1,26 +1,25 @@
 ﻿## Ignore Visual Studio temporary files, build results, and
 ## other common files.
-*.vs/
 *.DS_Store
-.vscode/
+*.vscode/
 *.code-workspace
 *.tmp
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-.vs/
+*.vs/
 *._ReSharper.*
-ReSharper
-.vscode/
-.vscode/*
+*ReSharper
+*.vscode/
+*.vscode/*
 
 # Ignore OS generated files
-.DS_Store
+*.DS_Store
 
 # Ignore build output directories
-bin/
-obj/
+*bin/
+*obj/
 
 # Ignore user-specific files
 *.swp
