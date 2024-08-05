@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1VPDGMMkEXn/lPZqIaOK83fpSjqv8x8c1qQcxnezPWQtyEOI+ixPvWQ0gePdKn8Ms00Hfrkr3pZR1gRw4E7Cfw==",
+  "dgSpecHash": "PlInHh14/WWwZKfPbuCCyaf5YLzy1sB1F59h/KR9LAbM5VcEaDH4kNL3vMDYPbeVZuCfFOKywf5DAA4Z1xCBzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mervan\\Desktop\\softito\\backend-examples\\BlogAPI\\BlogAPI\\BlogAPI.csproj",
+  "projectFilePath": "C:\\Users\\Mervan\\Desktop\\temp\\BlogAPI\\BlogAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mervan\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Mervan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

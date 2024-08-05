@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mervan\\Desktop\\softito\\backend-examples\\BlogAPI\\BlogAPI\\BlogAPI.csproj": {}
+    "C:\\Users\\Mervan\\Desktop\\temp\\BlogAPI\\BlogAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mervan\\Desktop\\softito\\backend-examples\\BlogAPI\\BlogAPI\\BlogAPI.csproj": {
+    "C:\\Users\\Mervan\\Desktop\\temp\\BlogAPI\\BlogAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mervan\\Desktop\\softito\\backend-examples\\BlogAPI\\BlogAPI\\BlogAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Mervan\\Desktop\\temp\\BlogAPI\\BlogAPI.csproj",
         "projectName": "BlogAPI",
-        "projectPath": "C:\\Users\\Mervan\\Desktop\\softito\\backend-examples\\BlogAPI\\BlogAPI\\BlogAPI.csproj",
+        "projectPath": "C:\\Users\\Mervan\\Desktop\\temp\\BlogAPI\\BlogAPI.csproj",
         "packagesPath": "C:\\Users\\Mervan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mervan\\Desktop\\softito\\backend-examples\\BlogAPI\\BlogAPI\\obj\\",
+        "outputPath": "C:\\Users\\Mervan\\Desktop\\temp\\BlogAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mervan\\AppData\\Roaming\\NuGet\\NuGet.Config",
